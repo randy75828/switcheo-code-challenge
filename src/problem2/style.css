@@ -1,0 +1,115 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+.background-image {
+  background-image:  url(./images/blockchain.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  overflow:auto;
+   
+}
+
+.transfer-form{
+padding-top:25vh;
+padding-left:10%;
+padding-bottom:24vh;
+background-color: transparent;
+
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-dark-mode{
+  background-color: rgb(37, 42, 48,0.85);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {   
+  border-color: rgba(255,255,255);
+  box-shadow:  0 0 8px rgba(0, 0, 0, 0.6);
+  outline: 0 none;
+}
+
+.card-header{
+  border: none;
+  background: none;
+}
+.form-check-input{
+  transform: scale(1.5);
+}
+
+.form-check-input:focus {
+  outline: none;
+  border:none;
+  box-shadow: none;
+}
+
+
+
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(0,0,0,0.25)'/></svg>");
+
+}
+
+.form-switch .form-check-input:checked {
+  background-color: rgb(37, 42, 48,0.85);
+  border:1px solid white;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+.disappear {
+  display: none;
+}
+
+.otp-button-light{
+  background-color: rgb(94, 151, 242);
+ border: none;
+}
+
+.otp-button-light:disabled{
+  background-color: gray;
+}
+
+.modal-header, .modal-footer{
+  border: none;
+}
+
+.modal-body,.modal-footer{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size:2rem;
+}
+
+#icon{
+  width:5rem; 
+  height: auto;
+}
+
+.modal-content-dark{
+  background-color: rgb(37, 42, 48);
+}
+.btn:focus,.btn:active {
+  outline: none ;
+  box-shadow: none;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+border:1px solid black;
+  background-image: none; 
+}
+
+
+
+
+
+
+
+
